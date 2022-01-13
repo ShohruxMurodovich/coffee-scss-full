@@ -1,0 +1,27 @@
+
+.commitment{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 245px;
+}
+
+.info{
+  width: 540px;
+}
+
+.info__title{
+  font-family: $main-family;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.info__text{
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}

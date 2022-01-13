@@ -1,0 +1,39 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2C343E;
+  padding: 45px 85px;
+  margin-bottom: 88px;
+}
+
+.footer-inner{
+  display: flex;
+  align-items: center;
+}
+
+.footer-inner__logo{
+  display: block;
+  margin-right: 100px;
+}
+
+.footer__link:hover{
+  color: #FEFCF7;
+}
+
+.footer__list{
+  display: flex;
+  list-style: none;
+}
+
+.footer__item{
+  margin-right: 24px;
+}
+
+.footer__icon{
+  transition: all 0.4s ease;
+  fill: #FEFCF7;
+
+  &:hover{
+    fill: #FDD6BA;
+  }
+}

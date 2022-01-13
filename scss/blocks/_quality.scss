@@ -1,0 +1,36 @@
+.quality-inner{
+  display: flex;
+  position: relative;
+  background-image: url(../images/quality-bgi.png);
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  margin-bottom: 245px;
+  border-radius: 10px;
+}
+
+.quality-info{
+  width: 540px;
+  margin-left: 85px;
+}
+
+.quality-info__title{
+  font-family: $main-family;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quality-info__text{
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.quality-inner__img{
+  position: absolute;
+  top: -80px;
+  right: 65px;
+  border-radius: 8px;
+}
