@@ -1,6 +1,15 @@
 .header-inner{
   display: flex;
+  align-items: center;
   padding: 45px 0;
+}
+
+.header-inner__logo{
+  vertical-align: middle;
+}
+
+.header-inner__mobile-logo{
+  display: none;
 }
 
 .header-inner__navbar{
@@ -31,4 +40,126 @@
   &:hover{
     color: #333D4B;
   }
+}
+
+.site-header__btn{
+  display: none;
+  margin-left: auto;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+}
+
+
+@media only screen and (max-width:420px){
+
+  .site-header--open .nav__list{
+    display: block;
+  }
+
+  .site-header{
+    position: relative;
+    z-index: 1;
+  }
+
+  .header-inner{
+    padding: 35px 0;
+  }
+
+  .header-inner__logo{
+    display: none;
+  }
+
+  .header-inner__mobile-logo{
+    display: block;
+  }
+
+  .nav__list{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 15px;
+    top: 113px;
+    z-index: 2;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+  }
+
+
+  .nav__item{
+    text-align: center;
+  }
+
+  .nav__item + .nav__item{
+    margin-top: 32px;
+  }
+
+  .nav__link{
+    font-family: $main-family;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    text-align: center;
+  }
+
+
+  .site-header__btn{
+    display: block;
+  }
+
+}
+
+
+@media only screen and (max-width:620px){
+
+  .site-header--open .nav__list{
+    display: block;
+  }
+
+  .site-header{
+    position: relative;
+    z-index: 1;
+  }
+
+  .header-inner{
+    padding: 40px 0;
+  }
+  
+  .nav__list{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 15px;
+    top: 113px;
+    z-index: 2;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+  }
+
+
+  .nav__item{
+    text-align: center;
+  }
+
+  .nav__item + .nav__item{
+    margin-top: 32px;
+  }
+
+  .nav__link{
+    font-family: $main-family;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    text-align: center;
+  }
+
+
+  .site-header__btn{
+    display: block;
+  }
+
 }
