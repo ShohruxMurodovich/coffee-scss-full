@@ -11,7 +11,7 @@
 .intro-info{
   width: 100%;
   max-width: 445px;
-  padding-left: 85px;
+  margin-left: 85px;
 }
 
 .intro-info__title{
@@ -42,7 +42,7 @@
 
   .intro-info{
     max-width: 398px;
-    padding-left: 58px;
+    margin-left: 58px;
   }
 
   .intro-info__title{
@@ -90,7 +90,7 @@
 @media only screen and (max-width:400px){
 
   .intro-inner{
-    padding: 111px 0 87px 0;
+    padding: 111px 24px 87px 24px;
     background-position: left -530px top 0;
     background-size: cover;
     border-radius: 10px;
