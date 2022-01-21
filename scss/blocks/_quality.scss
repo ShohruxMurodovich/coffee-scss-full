@@ -64,18 +64,18 @@
   }
 
   .quality-inner__img{
-    width: 573px;
+    width: 500px;
     height: 320px;
     position: absolute;
     top: -80px;
-    left: 210px;
+    left: 235px;
   }
 
 
 }
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:940px){
   .quality-inner{
     margin: 0 auto;
     background-size: 700px 588px;
